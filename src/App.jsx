@@ -18,12 +18,12 @@ export const App=()=>{
             <hr></hr>
             <h3>Counter: <Small value={counter}/>  </h3>            
 
-            <button className="btn btn-success"
+            <button className="btn btn-success btn-md"
             onClick={(e)=>fncIncrementar(e)}>
               Click para +
             </button>
 
-            <button className="btn btn-outline-success"
+            <button className="btn btn-outline-danger btn-md"
             onClick={()=>setShow(!show)}
             >
 
